@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Street Lights Failure Reporting</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Add Leaflet.js CSS and JavaScript libraries -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <h1>Report a Failed Street Light</h1>
+    <div id="map"></div>
+    <form id="reportForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="location">Location of Failed Street Light:</label><br>
+        <input type="text" id="location" name="location"><br>
+        <label for="details">Details of Failure:</label><br>
+        <textarea id="details" name="details"></textarea><br>
+        <input type="submit" value="Submit Report">
+    </form>
+    <!-- Your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
